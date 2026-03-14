@@ -65,7 +65,7 @@ There are currently 4 MCP servers available:
 
 ## List of MCP Servers
 
-There are currently 109 MCP servers available:
+There are currently 130 MCP servers available:
 
 | # | MCP Server | Link |
 |---|------------|------|
@@ -173,6 +173,32 @@ There are currently 109 MCP servers available:
 | 102 | wikipedia-mcp | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wikipedia-mcp.md) |
 | 103 | wolfram-alpha | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/wolfram-alpha.md) |
 | 104 | youtube_transcript | [GitHub](https://github.com/docker/labs-ai-tools-for-devs/blob/main/prompts/mcp/youtube_transcript.md) |
+| 105 | chrome-mcp | [GitHub](https://github.com/hangwin/mcp-chrome) |
+| 106 | genai-toolbox | [GitHub](https://github.com/googleapis/genai-toolbox) |
+| 107 | xcode-build-mcp | [GitHub](https://github.com/getsentry/XcodeBuildMCP) |
+| 108 | microsoft-mcp | [GitHub](https://github.com/microsoft/mcp) |
+| 109 | mobile-mcp | [GitHub](https://github.com/mobile-next/mobile-mcp) |
+| 110 | dbhub | [GitHub](https://github.com/bytebase/dbhub) |
+| 111 | godot-mcp | [GitHub](https://github.com/Coding-Solo/godot-mcp) |
+| 112 | excel-mcp-server | [GitHub](https://github.com/haris-musa/excel-mcp-server) |
+| 113 | google-workspace-mcp | [GitHub](https://github.com/taylorwilsdon/google_workspace_mcp) |
+| 114 | office-word-mcp | [GitHub](https://github.com/GongRzhe/Office-Word-MCP-Server) |
+| 115 | office-powerpoint-mcp | [GitHub](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) |
+| 116 | mcp-language-server | [GitHub](https://github.com/isaacphi/mcp-language-server) |
+| 117 | mongodb-mcp-server | [GitHub](https://github.com/mongodb-js/mongodb-mcp-server) |
+| 118 | apify-mcp-server | [GitHub](https://github.com/apify/apify-mcp-server) |
+| 119 | mcp-redis | [GitHub](https://github.com/redis/mcp-redis) |
+| 120 | chroma-mcp | [GitHub](https://github.com/chroma-core/chroma-mcp) |
+| 121 | centralmind-gateway | [GitHub](https://github.com/centralmind/gateway) |
+| 122 | mcp-for-security | [GitHub](https://github.com/cyproxio/mcp-for-security) |
+| 123 | spec-workflow-mcp | [GitHub](https://github.com/Pimzino/spec-workflow-mcp) |
+| 124 | n8n-mcp-server | [GitHub](https://github.com/leonardsellem/n8n-mcp-server) |
+| 125 | toolhive | [GitHub](https://github.com/stacklok/toolhive) |
+| 126 | mssql-mcp-server | [GitHub](https://github.com/RichardHan/mssql_mcp_server) |
+| 127 | duckdb-mcp-server | [GitHub](https://github.com/ktanaka101/mcp-server-duckdb) |
+| 128 | gemini-mcp-tool | [GitHub](https://github.com/jamubc/gemini-mcp-tool) |
+| 129 | code-graph-context | [GitHub](https://github.com/CodeGraphContext/CodeGraphContext) |
+| 130 | pubmed-mcp | [GitHub](https://github.com/andybrandt/mcp-simple-pubmed) |
 
 ## Using Docker MCP Toolkit
 
