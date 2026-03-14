@@ -79,6 +79,44 @@ main {
     padding: 0 1rem;
 }
 
+.stats-bar {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem 0;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stat-count {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.1;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.85;
+    margin-top: 0.2rem;
+}
+
 .section-title {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;

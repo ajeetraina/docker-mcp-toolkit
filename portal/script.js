@@ -46,6 +46,15 @@ const enterpriseServers = [
         category: "Database Access"
     },
     {
+        name: "AsterPay",
+        description: "EUR settlement and KYA trust scoring MCP server for AI agents with sanctions screening, USDC→EUR SEPA Instant settlement estimates, and pay-per-call via x402 protocol",
+        type: "Enterprise",
+        github: "https://github.com/timolein74/asterpay-mcp-server",
+        dockerHub: null,
+        pulls: null,
+        category: "API Integration"
+    },
+    {
         name: "Apify",
         description: "Use 3,000+ pre-built cloud tools to extract data from websites",
         type: "Enterprise",
@@ -201,6 +210,14 @@ const mcpTools = [
         pulls: null,
         category: "API Integration"
     }
+];
+
+// MCP Clients supported in Docker ecosystem
+const mcpClients = [
+    { name: "Ask Gordon", github: "" },
+    { name: "Claude Desktop", github: "" },
+    { name: "Cursor", github: "" },
+    { name: "Continue.dev", github: "" }
 ];
 
 // Official MCP servers with categories
@@ -476,6 +493,34 @@ function renderServers() {
             const cardHTML = createCardHTML(server);
             toolsContainer.insertAdjacentHTML('beforeend', cardHTML);
         });
+    }
+
+    // Update server counts in the stats bar
+    updateServerCounts();
+}
+
+// Function to update server counts in the stats bar
+function updateServerCounts() {
+    const totalCount = document.getElementById('total-server-count');
+    const officialCount = document.getElementById('official-server-count');
+    const enterpriseCount = document.getElementById('enterprise-server-count');
+    const toolsCount = document.getElementById('tools-count');
+    const clientsCount = document.getElementById('clients-count');
+
+    if (totalCount) {
+        totalCount.textContent = officialServers.length + enterpriseServers.length + mcpTools.length;
+    }
+    if (officialCount) {
+        officialCount.textContent = officialServers.length;
+    }
+    if (enterpriseCount) {
+        enterpriseCount.textContent = enterpriseServers.length;
+    }
+    if (toolsCount) {
+        toolsCount.textContent = mcpTools.length;
+    }
+    if (clientsCount) {
+        clientsCount.textContent = mcpClients.length;
     }
 }
 
