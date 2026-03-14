@@ -53,6 +53,12 @@ A curated list of reference Model Context Protocol (MCP) servers and implementat
 | [ElevenLabs](https://github.com/elevenlabs/elevenlabs-mcp) | Official ElevenLabs MCP server for voice and audio capabilities |
 | [ChatSum](https://github.com/chatmcp/mcp-server-chatsum) | Query and summarize chat messages |
 
+## Finance & Payments Servers
+
+| Server | Description |
+|--------|-------------|
+| [AsterPay](https://github.com/timolein74/asterpay-mcp-server) | EUR settlement and KYA trust scoring MCP server for AI agents. Includes 16 tools: KYA trust score, sanctions screening, USDC→EUR SEPA Instant settlement estimates, market data, and pay-per-call via x402 protocol |
+
 ## Utility Servers
 
 | Server | Description |
