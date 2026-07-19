@@ -36,6 +36,7 @@ A curated list of reference Model Context Protocol (MCP) servers and implementat
 | Puppeteer | Browser automation and web scraping |
 | [Playwright](https://github.com/microsoft/playwright-mcp) | Official Microsoft Playwright MCP server for browser automation and testing |
 | [Firecrawl](https://github.com/mendableai/firecrawl-mcp-server) | Powerful web scraping capabilities for LLM clients |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter data extraction and automation platform with a remote MCP server, REST API, webhooks, monitoring, and giveaway workflows. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp. |
 | [Exa](https://github.com/exa-labs/exa-mcp-server) | Web search capabilities for LLMs using Exa |
 | [Browser MCP](https://github.com/BrowserMCP/mcp) | Allows AI applications to control your browser |
 | [Browserbase](https://github.com/browserbase/mcp-server-browserbase) | Enables LLMs to control a browser with Browserbase and Stagehand |

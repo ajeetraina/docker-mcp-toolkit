@@ -52,7 +52,7 @@ Servers are additionally categorized by functionality:
 
 ## List of MCP Clients
 
-There are currently 4 MCP servers available:
+There are currently 4 MCP clients available:
 
 | # | MCP Client | Link |
 |---|------------|------|
@@ -65,7 +65,7 @@ There are currently 4 MCP servers available:
 
 ## List of MCP Servers
 
-There are currently 109 MCP servers available:
+There are currently 104 MCP servers available:
 
 | # | MCP Server | Link |
 |---|------------|------|
