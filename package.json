@@ -1,19 +1,19 @@
 {
-  "name": "awesome-mcp-tools",
+  "name": "docker-mcp-toolkit",
   "version": "1.0.0",
-  "description": "A curated list of awesome Model Card Platform tools and servers",
+  "description": "A portal for exploring Docker Model Context Protocol servers and clients",
   "main": "index.js",
   "scripts": {
     "update": "node scripts/update-tools.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node scripts/validate-catalog.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajeetraina/awesome-mcp-tools.git"
+    "url": "git+https://github.com/ajeetraina/docker-mcp-toolkit.git"
   },
   "keywords": [
     "mcp",
-    "model-cards",
+    "model-context-protocol",
     "ai",
     "ml",
     "awesome-list"
@@ -21,9 +21,9 @@
   "author": "Ajeet Raina",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajeetraina/awesome-mcp-tools/issues"
+    "url": "https://github.com/ajeetraina/docker-mcp-toolkit/issues"
   },
-  "homepage": "https://github.com/ajeetraina/awesome-mcp-tools#readme",
+  "homepage": "https://github.com/ajeetraina/docker-mcp-toolkit#readme",
   "dependencies": {
     "xml2js": "^0.6.2"
   }
